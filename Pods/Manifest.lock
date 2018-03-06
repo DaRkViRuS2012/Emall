@@ -1,0 +1,33 @@
+PODS:
+  - BTNavigationDropdownMenu (0.4.1)
+  - Localize-Swift (1.7.1)
+  - Material (2.4.11):
+    - Material/Core (= 2.4.11)
+  - Material/Core (2.4.11)
+  - YNDropDownMenu (2.0.11)
+
+DEPENDENCIES:
+  - BTNavigationDropdownMenu (from `https://github.com/PhamBaTho/BTNavigationDropdownMenu.git`, branch `swift-3.0`)
+  - Localize-Swift (~> 1.7)
+  - Material (~> 2.0)
+  - YNDropDownMenu
+
+EXTERNAL SOURCES:
+  BTNavigationDropdownMenu:
+    :branch: swift-3.0
+    :git: https://github.com/PhamBaTho/BTNavigationDropdownMenu.git
+
+CHECKOUT OPTIONS:
+  BTNavigationDropdownMenu:
+    :commit: 2c08c8579cf7a53ecb3dbf578e6e1034080a9859
+    :git: https://github.com/PhamBaTho/BTNavigationDropdownMenu.git
+
+SPEC CHECKSUMS:
+  BTNavigationDropdownMenu: 093f3cbfad1572f2c222bdf8d17584d1e13380d4
+  Localize-Swift: 6cabc1087c0e910e77bfa87c2ed3f65c80c0b2df
+  Material: 09b50565d8f824bd74881eba12d7c549b41f510d
+  YNDropDownMenu: 9f5437e93dd07a209d3ee0bf2ed815614cdd12c9
+
+PODFILE CHECKSUM: ddd2740f94d5cdfadf7eb58f3076e94c87d21b85
+
+COCOAPODS: 1.2.1.beta.1

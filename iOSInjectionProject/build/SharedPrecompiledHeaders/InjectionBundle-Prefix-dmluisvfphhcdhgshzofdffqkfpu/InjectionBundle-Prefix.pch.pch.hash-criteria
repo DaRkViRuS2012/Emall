@@ -1,0 +1,29 @@
+-x
+objective-c
+-arch
+x86_64
+-std=gnu99
+-fobjc-arc
+-fmodules
+-gmodules
+-fbuild-session-file=/var/folders/0h/45j372sj4f91l15bktx1_p7r0000gn/C/org.llvm.clang/ModuleCache/Session.modulevalidation
+-fpascal-strings
+-O1
+-DDEBUG=1
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk
+-fasm-blocks
+-mios-simulator-version-min=10.1
+-g
+-fobjc-abi-version=2
+-fobjc-legacy-dispatch
+-iquote
+-iquote
+-iquote..
+-I/Users/nour/Documents/Projects/IOs/xcode 8 /E-MALL/iOSInjectionProject/build/Debug-iphonesimulator/include
+-I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk/usr/include/libxml2
+-F/Users/nour/Documents/Projects/IOs/xcode 8 /E-MALL/iOSInjectionProject/build/Debug-iphonesimulator
+x86_64-apple-darwin16.3.0
+"4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)"
+SDK_PRODUCT_BUILD_VERSION=14B72
+14B72
