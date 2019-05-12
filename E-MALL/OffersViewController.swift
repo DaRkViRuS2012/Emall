@@ -31,7 +31,7 @@ class OffersViewController: UIViewController,UICollectionViewDelegate,UICollecti
     override func viewDidLoad() {
         super.viewDidLoad()
         self.edgesForExtendedLayout = []
-        self.navigationItem.title = "Offers"
+        self.navigationItem.titleLabel.text = "Offers"
         self.navigationItem.titleLabel.textColor = .white
         setupView()
         prepareCategory()
@@ -86,7 +86,7 @@ class OffersViewController: UIViewController,UICollectionViewDelegate,UICollecti
     
     func openProduct(name:String){
         let vc = SubCategoryViewController()
-        vc.navigationItem.title = name
+        vc.navigationItem.titleLabel.text = name
         self.navigationController?.pushViewController(vc, animated: true)
     }
     

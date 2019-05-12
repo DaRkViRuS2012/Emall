@@ -178,7 +178,7 @@ class CheckOutProcessViewController: UIViewController {
     
     func prepareview(){
         
-        self.navigationItem.title = "My Bag"
+        self.navigationItem.titleLabel.text = "My Bag"
         self.navigationItem.titleLabel.textColor = .white
         view.backgroundColor = .white
         view.addSubview(collectionView)

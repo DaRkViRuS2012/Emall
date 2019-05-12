@@ -27,7 +27,7 @@ class HomeViewController: UIViewController,UICollectionViewDelegate,UICollection
     func didLongPressCell(product:Product) {
         print(product.name)
                 let vc = ProductDetailsViewController()
-                vc.navigationItem.title = product.name
+                vc.navigationItem.titleLabel.text = product.name
                 vc.navigationItem.titleLabel.textColor  = .white
             self.show(vc, sender: self)
     }
@@ -37,6 +37,7 @@ class HomeViewController: UIViewController,UICollectionViewDelegate,UICollection
     }
     
     func addtobasket(seller: String, product: Product) {
+        
          Globals.basket.addProduct(seller: seller, product: product)
     }
 
@@ -112,7 +113,7 @@ class HomeViewController: UIViewController,UICollectionViewDelegate,UICollection
     
     fileprivate func prepareNavigationItem() {
         
-        self.navigationItem.title = "Syria-Mall"
+        self.navigationItem.titleLabel.text = "Syria-Mall"
         self.navigationItem.titleLabel.textColor = .white
         navigationItem.leftViews = [menuButton]
         navigationItem.rightViews = [FiltterButton,searchButton]

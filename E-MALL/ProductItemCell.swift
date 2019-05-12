@@ -91,8 +91,6 @@ class ProductsItemCell:UICollectionViewCell{
     }
     
     func addtocart(){
-        
-        
         if let del = self.delegate{
             if(addBtn.isSelected == true){
                 addBtn.isSelected = false

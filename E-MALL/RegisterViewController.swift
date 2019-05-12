@@ -12,7 +12,7 @@ class RegisterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Register"
+        navigationItem.titleLabel.text = "Register"
         view.backgroundColor = .white
         setupViews()
         addKeyboardobserver()

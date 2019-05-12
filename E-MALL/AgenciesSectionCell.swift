@@ -85,7 +85,7 @@ class AgenciesSectionCell: UICollectionViewCell,UICollectionViewDelegate,UIColle
     func showViewController(agency:Agency){
         
         let vc = AgencyViewController()
-        vc.navigationItem.title  = agency.name
+        vc.navigationItem.titleLabel.text  = agency.name
         vc.navigationItem.titleLabel.textColor = .white
         vc.navigationItem.titleLabel.tintColor = .white
         (((self.window?.rootViewController as! AppNavigationDrawerController).rootViewController as! UITabBarController).selectedViewController as! AppNavigationController).pushViewController(vc, animated: true)

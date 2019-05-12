@@ -115,7 +115,7 @@ class BasketViewController: UIViewController,UICollectionViewDataSource,UICollec
     
     override func viewDidLoad() {
         self.ratio = Double(UIScreen.main.bounds.width / 750)
-        self.navigationItem.title = "My Bag"
+        self.navigationItem.titleLabel.text = "My Bag"
         self.navigationItem.titleLabel.tintColor = .white
         self.navigationItem.titleLabel.textColor = .white
         

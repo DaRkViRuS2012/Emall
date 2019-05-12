@@ -31,7 +31,7 @@ class MainCategoryViewController: UIViewController ,UICollectionViewDelegate,UIC
     override func viewDidLoad() {
         super.viewDidLoad()
         self.edgesForExtendedLayout = []
-        self.navigationItem.title = "Choose what you want"
+        self.navigationItem.titleLabel.text = "Choose what you want"
         self.navigationItem.titleLabel.textColor = .white
         setupView()
         prepareCategory()
@@ -86,7 +86,7 @@ class MainCategoryViewController: UIViewController ,UICollectionViewDelegate,UIC
     
     func openProduct(name:String){
         let vc = SubCategoryViewController()
-        vc.navigationItem.title = name
+        vc.navigationItem.titleLabel.text = name
        self.navigationController?.pushViewController(vc, animated: true)
     }
     

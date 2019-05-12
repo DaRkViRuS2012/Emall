@@ -29,7 +29,7 @@ class FavoriteViewController: UIViewController {
     
     func setupViews(){
         
-        self.navigationItem.title = "Favorite"
+        self.navigationItem.titleLabel.text = "Favorite"
         self.navigationItem.titleLabel.textColor = .white
         
         self.navigationController?.navigationBar.backIndicatorImage = Icon.arrowBack

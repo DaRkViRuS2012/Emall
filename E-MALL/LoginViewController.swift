@@ -19,7 +19,7 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        navigationItem.title = "Sign in"
+        navigationItem.titleLabel.text = "Sign in"
         navigationItem.titleLabel.tintColor = .white
         navigationItem.titleLabel.textColor  = .white
         self.extendedLayoutIncludesOpaqueBars = true

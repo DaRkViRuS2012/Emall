@@ -28,7 +28,7 @@ class ProductsViewController: UIViewController {
     
     func setupViews(){
         
-        self.navigationItem.title = "Men"
+        self.navigationItem.titleLabel.text = "Men"
         self.navigationItem.titleLabel.textColor = .white
         
         self.navigationController?.navigationBar.backIndicatorImage = Icon.arrowBack

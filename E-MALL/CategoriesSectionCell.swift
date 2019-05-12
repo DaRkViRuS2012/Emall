@@ -95,7 +95,7 @@ class CategoriesSectionCell: UICollectionViewCell,UICollectionViewDelegate,UICol
     
         let vc = CategoryViewController()
 
-        vc.navigationItem.title  = category.name
+        vc.navigationItem.titleLabel.text  = category.name
         vc.navigationItem.titleLabel.textColor = .white
         (((self.window?.rootViewController as! AppNavigationDrawerController).rootViewController as! UITabBarController).selectedViewController as! AppNavigationController).pushViewController(vc, animated: true)
         

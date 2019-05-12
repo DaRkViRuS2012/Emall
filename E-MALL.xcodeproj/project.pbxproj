@@ -456,7 +456,7 @@
 				TargetAttributes = {
 					146410961E293EB4002338F1 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 6Q5YBWZH89;
+						DevelopmentTeam = BBSB6N9C9P;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
@@ -766,7 +766,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 6Q5YBWZH89;
+				DEVELOPMENT_TEAM = BBSB6N9C9P;
 				INFOPLIST_FILE = "E-MALL/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -785,7 +785,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 6Q5YBWZH89;
+				DEVELOPMENT_TEAM = BBSB6N9C9P;
 				INFOPLIST_FILE = "E-MALL/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
